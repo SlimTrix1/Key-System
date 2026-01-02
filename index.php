@@ -69,7 +69,7 @@
         if (isset($_GET['hash'])) {
             $hash = $_GET['hash'];
 
-            $auth_token = 'ANTI_BYPASSING_TOKEN'; // Replace with your actual token
+            $auth_token = '77198ae7774d236c7c0a37a277f87adc1648b7aa46378b1f3bd6b77d3c2cdddc'; // Replace with your actual token
             $api_url = "https://publisher.linkvertise.com/api/v1/anti_bypassing?token=" . $auth_token . "&hash=" . htmlspecialchars($hash);
 
             $ch = curl_init($api_url);
@@ -115,7 +115,7 @@
             }
         } else {
             echo '<p>To get the key, please complete the process at Linkvertise:</p>';
-            echo '<form method="get" action="LINKVERTISE_URL">';
+            echo '<form method="get" action="https://direct-link.net/2618719/Ab3xxQT2z7dM">';
             echo '<button type="submit">Get Key</button>';
             echo '</form>';
         }
