@@ -1,5 +1,5 @@
 # Use the official PHP image from the Docker Hub
-FROM php:7.4-cli
+FROM php:8.5.1-cli
 
 # Set the working directory
 WORKDIR /var/www
